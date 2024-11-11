@@ -1,0 +1,45 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Add your styles here */
+.element {
+  width: 200px;
+  height: 50px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.element#find-me:active {
+  background-color: #e74c3c;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
